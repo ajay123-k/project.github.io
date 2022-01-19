@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/new.html -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text" cellpadding="12">
+    
+    
+
+  </style>
+</head>
+<body>
+  
+      Total
+      
+      
+
+    <table padding="12" border="2" cellpadding="12" align="center" bgcolor="black">
+    <caption> <h1> <u>  HTML Table  </u></h1> </caption>
+    <thead>
+      <tr bgcolor="yellow">
+        <th>Sno</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Salary</th>
+      </tr>
+      <tr bgcolor="pink">
+        <td>1.</td>
+        <td>Akshay Khandare</td>
+        <td>HSC</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>2.</td>
+        <td>Ajay Khandare</td>
+        <td>SSC</td>
+        <td>15000</td>
+      </tr>
+
+      <tr bgcolor="pink">
+        <td>3.</td>
+        <td>Alok Gaikwad</td>
+        <td>TVD</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>4.</td>
+        <td>Datta Vaidya</td>
+        <td>MRP</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>5.</td>
+        <td>Samir Chavan</td>
+        <td>SDS</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>6.</td>
+        <td>Karan Nikalje</td>
+        <td>MTC</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>7.</td>
+        <td>Dadasaheb Gaware</td>
+        <td>TTB</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>8.</td>
+        <td>Bhagvat Vaidya</td>
+        <td>SBC</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>9.</td>
+        <td>Laxman Kawade</td>
+        <td>PSC</td>
+        <td>15000</td>
+      </tr>
+      <tr bgcolor="pink">
+        <td>10.</td>
+        <td> Tushar Kamble</td>
+        <td>ASC</td>
+        <td>15000</td>
+      </tr></thead>
+   
+  </table>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
